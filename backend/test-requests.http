@@ -1,0 +1,113 @@
+###
+GET http://localhost:3000/exercises HTTP/1.1
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name":"liftin'",
+    "reps":10,
+    "weight":30,
+    "unit":"kgs",
+    "date":"03-12-22"
+}
+
+###
+GET http://localhost:3000/exercises HTTP/1.1
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name":"liftin'",
+    "reps":10,
+    "weight":30,
+    "unit":"lol",
+    "date":"03-12-22"
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name":"liftin'",
+    "reps":10,
+    "weight":30,
+    "unit":"lbs",
+    "date":"03/12/22"
+}
+
+###
+GET http://localhost:3000/exercises HTTP/1.1
+
+###
+PUT http://localhost:3000/exercises/622c83aafad834f1e57c6866 HTTP/1.1
+content-type: application/json
+
+{
+    "name":"liftin 2.0'",
+    "reps":10,
+    "weight":30,
+    "unit":"kgs",
+    "date":"03-12-22"
+}
+
+###
+PUT http://localhost:3000/exercises/622c7daf HTTP/1.1
+content-type: application/json
+
+{
+    "name":"liftin 2.0'",
+    "reps":10,
+    "weight":30,
+    "unit":"kgs",
+    "date":"03-12-22"
+}
+
+###
+DELETE http://localhost:3000/exercises/622c83aafad834f1e57c6866 HTTP/1.1
+
+###
+GET http://localhost:3000/exercises HTTP/1.1
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name":"liftin'",
+    "reps":10,
+    "weight":30,
+    "unit":"kgs",
+    "date":"03-12-22"
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name":"liftin' 2",
+    "reps":10,
+    "weight":30,
+    "unit":"kgs",
+    "date":"03-12-22"
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name":"liftin' 3",
+    "reps":10,
+    "weight":30,
+    "unit":"kgs",
+    "date":"03-12-22"
+}
+
+###
+GET http://localhost:3000/exercises HTTP/1.1
